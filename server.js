@@ -5,7 +5,7 @@ const dbConfig = require("./dbConfig/dbConfig")
 const cors = require("cors");
 
 app.use(cors({
-    origin:["https://chubham.vercel.app"],
+    origin:["https://chubham-ihw91pwe8-brighttnuts-projects.vercel.app"],
     methods: ["POST","GET"],
     credentials:true
             }));
